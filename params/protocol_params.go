@@ -56,7 +56,7 @@ var (
 	CreateDataGas        = big.NewInt(200)    //
 	Ripemd160Gas         = big.NewInt(600)    //
 	Ripemd160WordGas     = big.NewInt(120)    //
-	MinimumDifficulty    = big.NewInt(131072) // The minimum that the difficulty may ever be.
+	MinimumDifficulty    = big.NewInt(10) // The minimum that the difficulty may ever be.
 	CallCreateDepth      = big.NewInt(1024)   // Maximum depth of call/create stack.
 	ExpGas               = big.NewInt(10)     // Once per EXP instruction.
 	LogGas               = big.NewInt(375)    // Per LOG* operation.
